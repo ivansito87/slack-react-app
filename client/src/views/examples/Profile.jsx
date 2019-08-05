@@ -37,9 +37,9 @@ class Profile extends React.Component {
   render() {
     return (
       <>
-        <UserHeader />
+        <UserHeader/>
         {/* Page content */}
-        <Container className="mt--7" fluid>
+        <Container className="mt--7">
           <Row>
             <Col className="order-xl-2 mb-5 mb-xl-0" xl="4">
               <Card className="card-profile shadow">
@@ -103,18 +103,18 @@ class Profile extends React.Component {
                       <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h5 font-weight-300">
-                      <i className="ni location_pin mr-2" />
+                      <i className="ni location_pin mr-2"/>
                       Bucharest, Romania
                     </div>
                     <div className="h5 mt-4">
-                      <i className="ni business_briefcase-24 mr-2" />
+                      <i className="ni business_briefcase-24 mr-2"/>
                       Solution Manager - Creative Tim Officer
                     </div>
                     <div>
-                      <i className="ni education_hat mr-2" />
+                      <i className="ni education_hat mr-2"/>
                       University of Computer Science
                     </div>
-                    <hr className="my-4" />
+                    <hr className="my-4"/>
                     <p>
                       Ryan — the name taken by Melbourne-raised, Brooklyn-based
                       Nick Murphy — writes, performs and records all of his own
@@ -224,7 +224,7 @@ class Profile extends React.Component {
                         </Col>
                       </Row>
                     </div>
-                    <hr className="my-4" />
+                    <hr className="my-4"/>
                     {/* Address */}
                     <h6 className="heading-small text-muted mb-4">
                       Contact information
@@ -302,7 +302,7 @@ class Profile extends React.Component {
                         </Col>
                       </Row>
                     </div>
-                    <hr className="my-4" />
+                    <hr className="my-4"/>
                     {/* Description */}
                     <h6 className="heading-small text-muted mb-4">About me</h6>
                     <div className="pl-lg-4">

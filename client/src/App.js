@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom
 // import Register from './components/Register/Register.jsx';
 // import Main from "./components/Main/Main";
 // import "./App.css";
-import Login from "./views/examples/Login"
+import Profile from "./views/examples/Profile"
 /*import "./assets/styles/nucleo/css/nucleo.css";
 import "./assets/css/argon-dashboard-react.css";
 import "./assets//font-awesome/css/font-awesome.css";*/
@@ -31,7 +31,7 @@ export default function APP() {
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path="/" component={Login}/>
+          <Route exact path="/" component={Profile}/>
           {/*<Route exact path="/register" component={Register}/>
           <ProtectedRoute exact path="/singleplayer" component={Main}/>
           <ProtectedRoute exact path="/multiplayer/:roomId?" component={MultplayerMain2}/>
