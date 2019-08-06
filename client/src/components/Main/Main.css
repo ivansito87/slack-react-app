@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+body{
+    background-color: #263248 !important;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace !important;
+    color: rgba(232, 230, 227, 0.87) !important;
+
+}
+.navbar-brand {
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace !important;
+    text-transform: uppercase;
+    font-size: 1.875rem !important;
+    letter-spacing: .05px;
+}
+.navbar-nav .nav-link {
+    font-weight: bolder;
+    font-size: 1rem !important;
+    font-family: 'Roboto Mono', monospace !important;
+    transition: all 0.15s linear;
+    cursor: pointer;
+}
+.display-1{
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace !important;
+}
