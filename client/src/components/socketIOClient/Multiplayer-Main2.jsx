@@ -25,12 +25,12 @@ import Carousel from '../Carousel/Carousel';
 import RoomFullModal from "../Modal/RoomFullModal";
 
 const io = require('socket.io-client');
-const socket = io.connect('/');
+// const socket = io.connect('/');
 
 let carousel = true;
 let carouseHide = true;
 
-// const socket = io.connect('http://localhost:3001');
+const socket = io.connect('http://localhost:3001');
 
 class Main2 extends React.Component {
 

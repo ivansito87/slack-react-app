@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import CodeEditor from '../CodeEditor/CodeEditor';
 //import Grid from '@material-ui/core/Grid';
@@ -219,3 +220,4 @@ class GameStart extends React.Component {
 }
 
 export default GameStart;
+*/
