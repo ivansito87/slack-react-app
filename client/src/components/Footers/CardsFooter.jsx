@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -27,7 +27,7 @@ class CardsFooter extends React.Component {
                   <Link to="/landing-page">
                     <CardImg
                       alt="..."
-                      src={"https://images.unsplash.com/photo-1525943837837-af668e09139d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"}
+                      src={require("../../assets/img/theme/landing.jpg")}
                     />
                   </Link>
                 </Card>
@@ -37,7 +37,7 @@ class CardsFooter extends React.Component {
                   <Link to="/profile-page">
                     <CardImg
                       alt="..."
-                      src={"https://images.unsplash.com/photo-1525943837837-af668e09139d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"}
+                      src={require("../../assets/img/theme/profile.jpg")}
                     />
                   </Link>
                 </Card>
@@ -63,7 +63,7 @@ class CardsFooter extends React.Component {
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-twitter"/>
+                  <i className="fa fa-twitter" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
@@ -76,7 +76,7 @@ class CardsFooter extends React.Component {
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square"/>
+                  <i className="fa fa-facebook-square" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
@@ -89,7 +89,7 @@ class CardsFooter extends React.Component {
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-dribbble"/>
+                  <i className="fa fa-dribbble" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
@@ -102,14 +102,14 @@ class CardsFooter extends React.Component {
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-github"/>
+                  <i className="fa fa-github" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
-            <hr/>
+            <hr />
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
