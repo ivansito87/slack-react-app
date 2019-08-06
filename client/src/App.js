@@ -7,9 +7,9 @@ import Login from "./components/Login/Login.jsx"
 import "./assets/styles/nucleo/css/nucleo.css";
 import "./assets/css/argon-design-system-react.css";
 import "./assets/styles/font-awesome/css/font-awesome.css";
-import MultplayerMain2 from "./components/socketIOClient/Multiplayer-Main2";
+/*import MultplayerMain2 from "./components/socketIOClient/Multiplayer-Main2";
 import MainSocket from "./components/Main/MainSocket";
-import Modal from './components/Modal/Modal';
+import Modal from './components/Modal/Modal';*/
 import Profile from './components/Profile/Profile'
 function ProtectedRoute({component: Component, ...outerProps}) {
 		return <Route {...outerProps} render={props => {
@@ -30,9 +30,9 @@ export default function APP() {
 										<Route exact path="/login" component={Login}/>
 										<Route exact path="/new" component={Profile}/>
 										<Route exact path="/register" component={Register}/>
-										<ProtectedRoute exact path="/singleplayer" component={Main}/>
+										{/*<ProtectedRoute exact path="/singleplayer" component={Main}/>
 										<ProtectedRoute exact path="/multiplayer/:roomId?" component={MultplayerMain2}/>
-										<ProtectedRoute path="/rooms/:id" component={MainSocket}/>
+										<ProtectedRoute path="/rooms/:id" component={MainSocket}/>*/}
 										<Route exact path="*" component={Login}/>
 								</Switch>
 						</Router>
