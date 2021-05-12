@@ -5,7 +5,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "headroom": "^0.1.0",
     "headroom.js": "^0.9.4",
